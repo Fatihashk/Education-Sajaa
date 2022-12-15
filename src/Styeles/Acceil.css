@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Tapestry&display=swap');
+
+.hero{
+    background:url("../IMAGES/vector.PNG");
+    background-position-x: right;
+    background-size: 40%;
+
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+.titre1{
+    color: #4071BB;
+    font-size: 100px;
+    font-family:'Libre Caslon Text', serif;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.school{
+    width: 15%;
+    margin-top: -7rem;
+    margin-left: 880px;
+    border-radius: 80%;
+   
+}
+.titre2{
+    color: #FFA41D;
+    font-size: 90px;
+    font-family:'Libre Caslon Text', serif;
+    margin-top: -70px;
+    margin-left: 120px;
+}
+.titre3{
+    color: #4071BB;
+    font-size: 30px;
+    font-family:'Libre Caslon Text', serif;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero{
+        background-size: 50%;
+        max-height: 200px;
+    }
+    .titre1{
+        font-size: 40px;
+    }
+
+    .titre2{
+        font-size: 35px;
+        margin-top: -30px;
+    }
+    .titre3{
+        margin-top: 25px;
+        font-size: 20px;
+    }
+    .school {
+        width: 28%;
+        height: 20%;
+        margin-top: -160px;
+        margin-left: 250px;
+        margin-bottom: 60px;
+        border-radius: 50%;
+    }
+
+}

@@ -1,0 +1,81 @@
+.cnt{
+    color: #4071BB;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.formcnt{
+   text-align: center;
+}
+.formcnt label{
+    font-size: 20px;
+    padding:35px;
+    color: #FFA41D;
+    
+}
+.formcnt input {
+    margin-top: 20px;
+    height:2.5rem;
+    cursor: pointer;
+    border-radius:0 50px 0px 25px ;
+    width: 15rem;
+    margin-bottom: 25px;
+    background-color: rgb(195, 191, 191);
+}
+.formcnt textarea{
+    height: 90px;
+    width: 15rem;
+    border-radius:0 50px 0px 25px ;
+    margin-left: -25px;
+    background-color: rgb(195, 191, 191);
+}
+.btncnt{
+    font-size: 30px;
+    background-color:#FFA41D;
+    color: black;
+    cursor: pointer;
+    margin-left:400px ;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width: 1024px){
+    .cnt{
+        
+        font-size: 30px;
+        line-height: 3;
+    }
+    .formcnt{
+        margin-left: 2px;
+        display: block;
+    }
+    .formcnt label{
+        font-size: 17px;
+
+        
+        
+    }
+    .formcnt input {
+        margin-top: 5px;
+        height:30px;
+        cursor: pointer;
+        border-radius:0 25px 0px 0px; 
+        width: 200px;
+        margin-bottom: 20px;
+        
+    }
+    .formcnt textarea{
+        height: 60px;
+        width: 12em;
+        border-radius:0 25px 0px 0px ;
+        margin-left: -25px;
+        
+    }
+    .btncnt{
+        font-size: 20px;
+       
+        cursor: pointer;
+        margin-left:250px ;
+        margin-top: 15px;
+    }
+
+}

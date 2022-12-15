@@ -1,0 +1,47 @@
+.ico{
+    margin-left: 120px;
+    font-size: 70px;
+}
+.labelre{
+    font-size: 20px;
+    color: #FFA41D;
+}
+
+.Field {
+    caret-color:#4071BB;
+  }
+  .inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+.Field {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 30px;
+    width:95%;
+    font-size: 16px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+a{
+    text-decoration: none;
+color: #4071BB;
+cursor: pointer;
+
+}
+a:visited{
+    color: #4071BB;
+}
+.icr{
+margin-left: 250px;
+border-radius: 50px;
+color: white;
+background-color:#4071BB;
+}
+.btnqt{
+    border-radius: 50px;
+    color: white;
+    background-color:#4071BB; 
+}
